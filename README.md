@@ -13,3 +13,7 @@
 
 - npm install -D tailwindcss
 - npx tailwindcss init
+
+### Deploying a React App\* to GitHub Pages
+
+[Deploying a React App\* to GitHub Pages](https://github.com/gitname/react-gh-pages)
