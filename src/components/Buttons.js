@@ -4,7 +4,7 @@ const Buttons = ({ buttonName, buttonStyle }) => {
   return (
     <>
       <div>
-        <button className={`rounded-lg w-2/4 my-1 ${buttonStyle}`}>
+        <button className={`rounded-lg w-full my-1 ${buttonStyle}`}>
           {buttonName}
         </button>
       </div>
