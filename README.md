@@ -1,4 +1,4 @@
-# Social Links Profile Main Using React and tailwind
+# Social Links Profile Main Using React and Tailwind CSS
 
 ### Install React
 
