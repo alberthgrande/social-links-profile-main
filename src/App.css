@@ -1,14 +1,75 @@
-/* .App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+:root {
+  --weight-400: 400;
+  --weight-600: 600;
+  --weight-700: 700;
+
+  /* color */
+  --Green: hsl(75, 94%, 57%);
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 20%);
+  --Dark-Grey: hsl(0, 0%, 12%);
+  --Off-Black: hsl(0, 0%, 8%);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-} */
+*,
+*::before,
+*::after {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 14px;
+}
+a {
+  font-weight: var(--weight-700);
+}
+.bg-off-black {
+  background: var(--Off-Black);
+}
+
+.bg-dark-gray {
+  background: var(--Dark-Grey);
+}
+.profile-name {
+  color: var(--White);
+  font-weight: var(--weight-400);
+  font-size: 2rem;
+}
+.profile-location {
+  color: var(--Green);
+  font-size: 1.1rem;
+  font-weight: var(--weight-400);
+}
+.profile-info {
+  color: var(--White);
+  margin-top: 1rem;
+}
+.profile-links {
+  font-weight: var(--weight-700);
+  border-radius: 10px;
+}
+
+/* App.css */
+.github:hover {
+  background: #4078c0;
+  color: var(--White);
+}
+
+.frontend-mentor:hover {
+  background: #e04f5f;
+  color: var(--White);
+}
+
+.linkedin:hover {
+  background: #0077b5;
+  color: var(--White);
+}
+
+.twitter:hover {
+  background: #1da1f2;
+  color: var(--White);
+}
+
+.instagram:hover {
+  background: #c32aa3;
+  color: var(--White);
+}
